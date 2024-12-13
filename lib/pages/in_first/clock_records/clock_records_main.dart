@@ -24,7 +24,7 @@ class ClockRecordsMain extends GetView<PageLogic>{
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.qphncrbx.value)),
+              url: WebUri.uri(Uri.parse(controller.uweod.value)),
             ),
             onWebViewCreated: (c) {
               controller.webViewController = c;

@@ -11,7 +11,7 @@ class ClockMenuView extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.murazik.value
+          () => controller.muller.value
               ? const CircularProgressIndicator(color: Colors.blue)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class ClockMenuView extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.lkrqpsgz();
+              controller.czsibyen();
             },
             icon: const Icon(
               Icons.restart_alt,
